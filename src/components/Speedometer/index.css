@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: rgb(138, 148, 147);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color:black;
+}
+
+.btnCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  /* height: 40px; */
+  /* width: 80px; */
+  background-color: pink;
+  color:black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.btn2 {
+  /* height: 40px; */
+  /* width: 80px; */
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-color: white;
+  border-radius: 4px;
+}
+.image {
+  height: 250px;
+  width: 850px;
+  border-radius:30px;
+}
